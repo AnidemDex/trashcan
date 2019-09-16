@@ -1,0 +1,20 @@
+# Python Zen (adaptado por mi)
+- Lo bonito es mejor que lo feo
+- Lo explícito es mejor que lo implícito, sé claro
+- Preferimos lo simple a lo complejo
+- Pero siempre es mucho mejor algo complejo a algo complicado
+- El código plano es mejor que el anidado
+- Y los espacios en el código son mucho mejores que los códigos densos
+- El código importa tanto como su redacción. Debe ser legible
+- Los casos especiales no son tan especiales como para romper las reglas
+- De todas formas, las cosas practicas superan a las puras
+- Los errores son errores, no los puedes ignorar así nomás
+- A excepción de que sepas manejarlo, y lo quieras silenciar.
+- Frente a la ambigüedad, no intentes adivinar
+- Siempre debe de haber por lo menos una forma obvia de hacer algo
+- A no ser que no entiendas esa forma obvia al estar en otro idioma
+- Ahora es mejor que nunca
+- Aunque a veces es mejor un mas tarde que <<ahora>> mismo
+- Si lo que tratas de hacer es difícil de explicar, es una mala idea
+- Si lo que tratas de hacer es fácil de explicar, puede que sea una buena idea
+- Nombrar las cosas es bueno, nos gustan las cosas buenas
