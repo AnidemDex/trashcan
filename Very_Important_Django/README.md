@@ -16,3 +16,7 @@ Para ver el segundo ejemplo, basta con ejecutar desde la terminal:
 
 Y visitar la IP local de su maquina, bien sea `127.0.0.1` con el puerto `8000`  en la dirección de `/hello_world`.  
 Algo como: `127.0.0.1:8000/hello_world`
+
+```
+Nota: El autor asume que el lector posee python y la libreria Django instalados para la ejecución de los programas
+```
