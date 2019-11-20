@@ -2,8 +2,49 @@
 Made with a taste of love
 
 Based on https://bulbapedia.bulbagarden.net/wiki/Statistic
+
+{
+	"PetInfo":
+	{
+		"number": ,
+		"name": ,
+		"level": ,
+		"nature": ,
+		"baseStats":
+		{
+			"stats":
+			{
+				...
+			}
+		},
+		"stats":
+		{
+			"hitPoints":,
+			"attack":,
+			"defense":,
+			"specialAttack":,
+			"specialDefense":,
+			"speed":
+		},
+		"ivs":
+		{
+			"stats":
+			{
+				...
+			}
+		},
+		"evs":
+		{
+			"stats":
+			{
+				...
+			}
+		}
+	}
+}
 */
-// Acaba este programa
+// FIXME esta sin acabar
+
 private class PetInfo {
 	public int number;
 	public string name;
@@ -37,30 +78,23 @@ private class PetEffortValues {
 	public Stats stats;
 }
 
-public class PetClass
-{	
+public class PetClass {
 	private int defaultAccuracy = 100;
 	private int defaultEvasion = 100;
 	
 	#In-Battle Stats
 	public int evasion { get; set;}
 	public int accuracy { get; set;}
-	
-	#Base stats
-	
-	private enum permanentStatName
-	{
-		hitPoints,
-		defense,
-		attack,
-		specialAttack,
-		specialDefense,
-		speed
-	}
+
+	public PetInfo info;
 }
 
-class Pet: PokemonClass
-{
+class Pet: PetClass {
+
+	public Pet () {
+		info = new PetInfo()
+	}
+
 	public override string ToString()
 	{
 		return this.GetType().Name
