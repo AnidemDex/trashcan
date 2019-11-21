@@ -43,7 +43,7 @@ Based on https://bulbapedia.bulbagarden.net/wiki/Statistic
 	}
 }
 */
-// FIXME esta sin acabar
+// FIXME esta sin acabar. Es probable que se vayan a añadir mas cosas
 
 private class PetInfo {
 	public int number;
